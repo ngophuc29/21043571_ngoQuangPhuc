@@ -1,0 +1,121 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: Verdana,sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__item__left{
+    display: flex;
+    align-items: center;
+}
+.header__item__left__item{
+    /* display: inline-block; */
+}
+.header__item__left__item__link{
+    color: black;
+    font-size: 1.8rem;
+    height: 91px;
+    font-weight: 400;
+    display: block;
+    padding: 0 11px;
+    /* margin: 0 10px; */
+    /* padding: 10px; */
+    line-height: 9.4rem;
+}
+.header__item__left__item__link:hover{
+    background-color: #04aa6d;
+    color: #fff;
+    transition: all 0.1s;
+}
+
+.header__item__left__item__link__img{
+    width: 83px;
+}
+.header__item__left__icon{
+
+}
+
+.header__item__right{
+    display: flex;
+    align-items: center;
+}
+.header__item__right__item{
+    /* display: inline-block; */
+}
+.header__item__right__item__link{
+    display: block;
+}
+.htrtl_black{
+    background-color: black;
+    color: #fff;
+    padding: 14px 14px;
+    font-size: 1.8rem;
+    border-radius: 24px;
+    margin-right: 18px;
+}
+.htrtl_pink{
+    background-color: #ffc0c7;
+    color: #000;
+    padding: 14px 14px;
+    font-size: 1.8rem;
+    border-radius: 24px;
+    margin-right: 18px;
+}
+.htrtl_yellow{
+    background-color: #fff4a3;
+    color: #000;
+    padding: 14px 14px;
+    font-size: 1.8rem;
+    border-radius: 24px;
+    margin-right: 18px;
+     
+}
+.htrtl_green{
+    background-color:   #04aa6d;
+    color: #fff;
+    padding: 14px 14px;
+    font-size: 1.8rem;
+    border-radius: 24px;
+    margin-right: 18px;
+  
+}
+
+.htrtl_black:hover{
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+.htrtl_pink:hover{
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+.htrtl_yellow:hover{
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+.htrtl_green:hover{
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+
