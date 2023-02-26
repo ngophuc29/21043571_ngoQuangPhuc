@@ -119,3 +119,116 @@ a{
     cursor: pointer;
 }
 
+
+
+.header__list2{
+    display: flex;
+    background-color: #282a35;
+}
+.header__list2__list{
+    display: flex;
+    align-items: center;
+}
+.header__list2__list__item{
+
+}
+.header__list2__list__item__link{
+    display: block;
+    /* padding: 0 10px; */
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 17px 17px;
+}
+.header__list2__list__item__link_on{
+    background-color:#04aa6d ;
+}
+.header__list2__list__item__link:hover,
+.header__list2__icon__wrapp__link:hover{
+    background-color: #000;
+}
+.header__list2__list__item__icon{
+
+}
+
+.header__list2__icon__wrapp{
+    display: flex;
+    margin: 0 0 0 48px;
+}
+.header__list2__icon__wrapp__list{
+
+}
+.header__list2__icon__wrapp__link{
+    display: block;
+    /* padding: 0 10px; */
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 17px 17px;
+}
+.header__list2__icon__wrapp__link__icon{
+
+}
+
+
+
+
+.continer{
+    display: flex;
+}
+.continer__left{
+    width: 20%;
+}
+.continer__left__list1{
+
+}
+.continer__left__item{
+
+}
+
+.continer__center{
+    width: 60%;
+}
+.continer__center__head{
+
+}
+.continer__center__heading{
+
+}
+.continer__center__head__btn{
+
+}
+.continer__center__head__icon{
+
+}
+.continer__center__head__btn{
+
+}
+.continer__center__head__icon{
+
+}
+.continer__center__head__body{
+
+}
+.continer__center__head__dsc{
+
+}
+.continer__center__head__dsc{
+
+}
+.continer__center__head__dsc{
+
+}
+.continer__center__head__body__link{
+
+}
+.continer__center__head__body__link__icon{
+
+}
+.continer__right{
+    width: 20%;
+}
+.continer__right__img__wrapper{
+
+}
+.continer__right__img{
+
+}
