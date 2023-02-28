@@ -181,10 +181,13 @@ a{
 .continer__left{
     width: 11%;
     overflow-y: auto;
+    position: sticky;
     max-height: 150vh;
+    top: 60px;
 }
 .continer__left__list1{
-
+    overflow-y: scroll;
+    height: 100%;
 }
 .continer__left__item1{
     font-size: 2rem;
@@ -207,7 +210,13 @@ a{
 .continer__center{
  
     width: 65%;
-    margin-top: 7%;
+    /* margin-top: 7%; */
+    border: 1px solid #eee;
+    padding-right: 33px;
+    padding-left: 20px;
+    padding: -t;
+    padding-top: 162px;
+
 }
 .continer__center__head{
     /* margin-left: 41px; */
@@ -583,4 +592,12 @@ a{
     width: 179px;
     position: relative;
     left: 46px;
+}
+
+.continer__right{
+
+    width: 20%;
+    text-align: center;
+    margin-left: 53px;
+    margin-top: 36%;
 }
